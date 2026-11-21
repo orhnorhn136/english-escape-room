@@ -2,6 +2,15 @@ import type { Question, RawChoice, RawOrder, RawRoom, RawUnit, Room, RoomTip } f
 
 const LEARNING_TIPS: RoomTip[] = ['kelime', 'kalip', 'siralama', 'karisik'];
 
+export interface ExtraItem {
+  id: string;
+  unite: string;
+  soru: string;
+  secenekler: string[];
+  dogru: number;
+  ipucu: string;
+}
+
 export function isLearningTip(tip: RoomTip): boolean {
   return LEARNING_TIPS.includes(tip);
 }
@@ -50,10 +59,17 @@ export function shuffle<T>(items: T[], rand: () => number = Math.random): T[] {
 
 /**
  * Bir odada gösterilecek soruları döndürür.
- * Öğrenme odaları kendi sorularını verir; test odaları ise havuzdaki
- * öğrenme odalarından rastgele soru çeker.
+ * Öğrenme odaları kendi sorularını verir; test odaları ise ilgili ünitelerin
+ * soru havuzundan (ek soru bankası dahil) rastgele seçim yapar.
+ * `avoid` içindeki sorular mümkünse seçilmez (tekrarı azaltmak için).
  */
-export function questionsFor(room: Room, all: Room[], rand: () => number = Math.random): Question[] {
+export function questionsFor(
+  room: Room,
+  all: Room[],
+  rand: () => number = Math.random,
+  avoid: Set<string> = new Set(),
+  extra: ExtraItem[] = [],
+): Question[] {
   if (room.kind === 'learning') return room.questions;
 
   const byOda = new Map(all.map((r) => [r.oda, r]));
@@ -63,9 +79,21 @@ export function questionsFor(room: Room, all: Room[], rand: () => number = Math.
   }
 
   const pool: Question[] = [];
+  const units = new Set<string>();
   for (const oda of sources) {
     const r = byOda.get(oda);
-    if (r && r.kind === 'learning') pool.push(...r.questions);
+    if (r && r.kind === 'learning') {
+      pool.push(...r.questions);
+      units.add(r.unite);
+    }
   }
-  return shuffle(pool, rand).slice(0, room.count);
+  for (const e of extra) {
+    if (units.has(e.unite)) {
+      pool.push({ kind: 'choice', id: e.id, soru: e.soru, secenekler: e.secenekler, dogru: e.dogru, ipucu: e.ipucu });
+    }
+  }
+
+  const fresh = pool.filter((q) => !avoid.has(q.id));
+  const source = fresh.length >= room.count ? fresh : pool;
+  return shuffle(source, rand).slice(0, room.count);
 }

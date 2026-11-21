@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import type { Question, Room } from '../game/types';
-import { questionsFor, shuffle } from '../game/rooms';
+import { shuffle } from '../game/rooms';
+import { pickQuestions } from '../game/recent';
 import { isOrderCorrect, starsFor } from '../game/check';
 import { playCorrect, playWin, playWrong } from '../game/sound';
 import { Confetti, SoundToggle } from './Effects';
@@ -18,7 +19,7 @@ type Status = 'playing' | 'correct' | 'won' | 'lost';
 const MAX_LIVES = 3;
 
 export function RoomPlay({ room, all, onWon, onExit, onRetry }: Props) {
-  const [questions] = useState<Question[]>(() => questionsFor(room, all));
+  const [questions] = useState<Question[]>(() => pickQuestions(room, all));
   const [index, setIndex] = useState(0);
   const [lives, setLives] = useState(MAX_LIVES);
   const [mistakes, setMistakes] = useState(0);
