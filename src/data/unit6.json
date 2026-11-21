@@ -1,0 +1,45 @@
+{
+  "unite": 6,
+  "baslik": "Life in the World and Culture",
+  "odalar": [
+    {"oda": 61, "tip": "kelime", "baslik": "Kıtalar ve uyruklar", "sorular": [
+      {"id": "u6-o61-s1", "soru": "What does 'Brazilian' mean?", "secenekler": ["Brezilyalı", "Arjantinli", "Meksikalı", "Kanadalı"], "dogru": 0, "ipucu": "Brezilya'dan gelen kişi."},
+      {"id": "u6-o61-s2", "soru": "What does 'continent' mean?", "secenekler": ["kıta", "ülke", "ada", "okyanus"], "dogru": 0, "ipucu": "Asya, Avrupa, Afrika gibi büyük kara parçaları."}
+    ]},
+    {"oda": 62, "tip": "kelime", "baslik": "Kutlamalar", "sorular": [
+      {"id": "u6-o62-s1", "soru": "What does 'festival' mean?", "secenekler": ["festival", "sergi", "yarışma", "konser"], "dogru": 0, "ipucu": "Belirli bir zamanda yapılan büyük kutlama."},
+      {"id": "u6-o62-s2", "soru": "What does 'celebrate' mean?", "secenekler": ["kutlamak", "hatırlamak", "unutmak", "öğrenmek"], "dogru": 0, "ipucu": "Özel bir günü eğlenerek anmak."}
+    ]},
+    {"oda": 63, "tip": "kelime", "baslik": "Mutfak kültürü", "sorular": [
+      {"id": "u6-o63-s1", "soru": "What does 'cuisine' mean?", "secenekler": ["mutfak (yemek kültürü)", "restoran", "menü", "bahçe"], "dogru": 0, "ipucu": "Bir ülkenin yemek kültürü."},
+      {"id": "u6-o63-s2", "soru": "What does 'heritage' mean?", "secenekler": ["miras / kültürel değer", "tarih dersi", "para", "hediye"], "dogru": 0, "ipucu": "Geçmişten bugüne gelen kültürel değerler."}
+    ]},
+    {"oda": 64, "tip": "kelime", "baslik": "Saygı ve kültür", "sorular": [
+      {"id": "u6-o64-s1", "soru": "What does 'respect' mean?", "secenekler": ["saygı göstermek", "kızmak", "korkmak", "sevmek"], "dogru": 0, "ipucu": "Başkalarının değerlerine önem vermek."},
+      {"id": "u6-o64-s2", "soru": "What does 'foreign' mean?", "secenekler": ["yabancı", "yerel", "eski", "ünlü"], "dogru": 0, "ipucu": "Kendi ülkene ait olmayan."}
+    ]},
+    {"oda": 65, "tip": "test", "baslik": "Mini Test 11", "havuz": [61, 62, 63, 64], "soru_sayisi": 5},
+    {"oda": 66, "tip": "kalip", "baslik": "Present perfect: devam eden durum", "sorular": [
+      {"id": "u6-o66-s1", "soru": "I ___ lived in this city since 2015.", "secenekler": ["have", "has", "had", "am"], "dogru": 0, "ipucu": "I ile have + V3 (lived)."},
+      {"id": "u6-o66-s2", "soru": "She ___ been a vegetarian for five years.", "secenekler": ["has", "have", "is", "was"], "dogru": 0, "ipucu": "She ile has + V3; geçmişte başlayıp hâlâ süren durum."}
+    ]},
+    {"oda": 67, "tip": "kalip", "baslik": "Present perfect: since ve for", "sorular": [
+      {"id": "u6-o67-s1", "soru": "We have known each other ___ 2019.", "secenekler": ["since", "for", "ago", "during"], "dogru": 0, "ipucu": "Belirli bir başlangıç tarihi için since."},
+      {"id": "u6-o67-s2", "soru": "They have worked here ___ three years.", "secenekler": ["for", "since", "ago", "during"], "dogru": 0, "ipucu": "Bir süre (three years) için for."}
+    ]},
+    {"oda": 68, "tip": "kalip", "baslik": "Miktar: much, many, a few", "sorular": [
+      {"id": "u6-o68-s1", "soru": "There are ___ tomatoes in the fridge.", "secenekler": ["a few", "a little", "much", "little"], "dogru": 0, "ipucu": "Sayılabilen çoğul isimler için a few."},
+      {"id": "u6-o68-s2", "soru": "We don't have ___ milk.", "secenekler": ["much", "many", "a few", "few people"], "dogru": 0, "ipucu": "Sayılamayan isimlerle olumsuzda much."}
+    ]},
+    {"oda": 69, "tip": "siralama", "baslik": "Cümle kurma", "sorular": [
+      {"id": "u6-o69-s1", "soru": "Put the words in order.", "kelimeler": ["This", "restaurant", "has", "served", "Turkish", "food", "for", "years"], "cevap": "This restaurant has served Turkish food for years.", "ipucu": "Has + V3 + for + süre."},
+      {"id": "u6-o69-s2", "soru": "Put the words in order.", "kelimeler": ["She", "has", "never", "tried", "sushi"], "cevap": "She has never tried sushi.", "ipucu": "Has + never + V3."}
+    ]},
+    {"oda": 70, "tip": "karisik", "baslik": "Karışık tekrar", "sorular": [
+      {"id": "u6-o70-s1", "soru": "Choose the correct question tag: You are from Turkey, ___?", "secenekler": ["aren't you", "don't you", "isn't you", "are you"], "dogru": 0, "ipucu": "Olumlu cümleye olumsuz soru eki: are + you → aren't you."},
+      {"id": "u6-o70-s2", "soru": "Which sentence is correct?", "secenekler": ["I have been here since two hours.", "I have been here for two hours.", "I have been here two hours.", "I am been here for two hours."], "dogru": 1, "ipucu": "Süre için for, have been + -ing/V3."}
+    ]},
+    {"oda": 71, "tip": "test", "baslik": "Mini Test 12", "havuz": [66, 67, 68, 69, 70], "soru_sayisi": 5},
+    {"oda": 72, "tip": "unite_testi", "baslik": "Ünite 6 Boss Testi", "havuz": [61, 62, 63, 64, 66, 67, 68, 69, 70], "soru_sayisi": 10}
+  ]
+}

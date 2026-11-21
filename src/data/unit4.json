@@ -1,0 +1,45 @@
+{
+  "unite": 4,
+  "baslik": "Family Life and Home",
+  "odalar": [
+    {"oda": 37, "tip": "kelime", "baslik": "Aile üyeleri", "sorular": [
+      {"id": "u4-o37-s1", "soru": "What does 'cousin' mean?", "secenekler": ["kuzen", "yeğen", "amca", "kardeş"], "dogru": 0, "ipucu": "Amcanın, dayının, teyzenin çocuğu."},
+      {"id": "u4-o37-s2", "soru": "What does 'grandparents' mean?", "secenekler": ["büyükanne ve büyükbaba", "anne ve baba", "kardeşler", "çocuklar"], "dogru": 0, "ipucu": "Annenin veya babanın anne-babası."}
+    ]},
+    {"oda": 38, "tip": "kelime", "baslik": "Günlük işler", "sorular": [
+      {"id": "u4-o38-s1", "soru": "What does 'chores' mean?", "secenekler": ["ev işleri", "tatil", "alışveriş", "misafirlik"], "dogru": 0, "ipucu": "Evde düzenli yapılan günlük işler."},
+      {"id": "u4-o38-s2", "soru": "What does 'tidy' mean?", "secenekler": ["düzenli", "kirli", "yeni", "büyük"], "dogru": 0, "ipucu": "Her şeyin yerli yerinde olması."}
+    ]},
+    {"oda": 39, "tip": "kelime", "baslik": "Ev türleri", "sorular": [
+      {"id": "u4-o39-s1", "soru": "What does 'farmhouse' mean?", "secenekler": ["çiftlik evi", "villa", "daire", "kulübe"], "dogru": 0, "ipucu": "Çiftçinin yaşadığı ana ev."},
+      {"id": "u4-o39-s2", "soru": "What does 'attached house' mean?", "secenekler": ["bitişik ev", "müstakil ev", "apartman", "kulübe"], "dogru": 0, "ipucu": "Bir duvarı başka bir evle ortak olan ev."}
+    ]},
+    {"oda": 40, "tip": "kelime", "baslik": "Sorumluluk ve nesil", "sorular": [
+      {"id": "u4-o40-s1", "soru": "What does 'responsibility' mean?", "secenekler": ["sorumluluk", "özgürlük", "şans", "hata"], "dogru": 0, "ipucu": "Yapman gereken görev ve işler."},
+      {"id": "u4-o40-s2", "soru": "What does 'generation' mean?", "secenekler": ["nesil", "aile", "yaş", "ülke"], "dogru": 0, "ipucu": "Aynı dönemde doğmuş insanlar grubu."}
+    ]},
+    {"oda": 41, "tip": "test", "baslik": "Mini Test 7", "havuz": [37, 38, 39, 40], "soru_sayisi": 5},
+    {"oda": 42, "tip": "kalip", "baslik": "Past simple: be", "sorular": [
+      {"id": "u4-o42-s1", "soru": "My grandfather ___ a teacher when he was young.", "secenekler": ["was", "were", "is", "be"], "dogru": 0, "ipucu": "Tekil özne ve geçmiş: was."},
+      {"id": "u4-o42-s2", "soru": "We ___ live in a small flat before we moved.", "secenekler": ["used to", "use to", "are used to", "was use"], "dogru": 0, "ipucu": "Eski bir alışkanlık ya da durum için used to."}
+    ]},
+    {"oda": 43, "tip": "kalip", "baslik": "Past habits: used to", "sorular": [
+      {"id": "u4-o43-s1", "soru": "Did your mother ___ in this neighbourhood when she was a child?", "secenekler": ["live", "lived", "living", "lives"], "dogru": 0, "ipucu": "Did'den sonra yalın fiil."},
+      {"id": "u4-o43-s2", "soru": "My uncle ___ play football every Sunday when he was a student.", "secenekler": ["used to", "didn't used", "use to", "used"], "dogru": 0, "ipucu": "Düzenli eski alışkanlık: used to."}
+    ]},
+    {"oda": 44, "tip": "kalip", "baslik": "Past simple: aile olayları", "sorular": [
+      {"id": "u4-o44-s1", "soru": "Last summer, we ___ to the mountains.", "secenekler": ["went", "go", "goes", "gone"], "dogru": 0, "ipucu": "Last summer geçmiş zaman gösterir: go → went."},
+      {"id": "u4-o44-s2", "soru": "They ___ dinner for the family yesterday.", "secenekler": ["cooked", "cook", "cooks", "cooking"], "dogru": 0, "ipucu": "Yesterday geçmiş zaman: düzenli fiil -ed."}
+    ]},
+    {"oda": 45, "tip": "siralama", "baslik": "Cümle kurma", "sorular": [
+      {"id": "u4-o45-s1", "soru": "Put the words in order.", "kelimeler": ["We", "used", "to", "have", "dinner", "together", "every", "Sunday"], "cevap": "We used to have dinner together every Sunday.", "ipucu": "Used to + yalın fiil."},
+      {"id": "u4-o45-s2", "soru": "Put the words in order.", "kelimeler": ["My", "grandmother", "was", "a", "nurse", "twenty", "years", "ago"], "cevap": "My grandmother was a nurse twenty years ago.", "ipucu": "Geçmiş zaman: was + zaman ifadesi."}
+    ]},
+    {"oda": 46, "tip": "karisik", "baslik": "Karışık tekrar", "sorular": [
+      {"id": "u4-o46-s1", "soru": "Which is correct?", "secenekler": ["He didn't used to smoke.", "He didn't use to smoke.", "He didn't used to smoking.", "He doesn't use to smoke."], "dogru": 1, "ipucu": "Olumsuz used to: didn't use to."},
+      {"id": "u4-o46-s2", "soru": "Choose: We ___ to the cinema every weekend when we were teenagers.", "secenekler": ["used to go", "use to go", "used go", "were use to go"], "dogru": 0, "ipucu": "Eski alışkanlık: used to + yalın fiil."}
+    ]},
+    {"oda": 47, "tip": "test", "baslik": "Mini Test 8", "havuz": [42, 43, 44, 45, 46], "soru_sayisi": 5},
+    {"oda": 48, "tip": "unite_testi", "baslik": "Ünite 4 Boss Testi", "havuz": [37, 38, 39, 40, 42, 43, 44, 45, 46], "soru_sayisi": 10}
+  ]
+}

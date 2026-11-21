@@ -1,0 +1,45 @@
+{
+  "unite": 7,
+  "baslik": "Life in Nature and Global Problems",
+  "odalar": [
+    {"oda": 73, "tip": "kelime", "baslik": "Doğal kaynaklar", "sorular": [
+      {"id": "u7-o73-s1", "soru": "What does 'renewable resource' mean?", "secenekler": ["yenilenebilir kaynak", "doğal afet", "iklim", "nüfus"], "dogru": 0, "ipucu": "Güneş, rüzgar ve su gibi tekrar tekrar yararlanılabilen kaynaklar."},
+      {"id": "u7-o73-s2", "soru": "What does 'solar energy' mean?", "secenekler": ["güneş enerjisi", "rüzgar enerjisi", "nükleer enerji", "kömür"], "dogru": 0, "ipucu": "Güneş ışığından elde edilen enerji."}
+    ]},
+    {"oda": 74, "tip": "kelime", "baslik": "Çevre sorunları", "sorular": [
+      {"id": "u7-o74-s1", "soru": "What does 'pollution' mean?", "secenekler": ["kirlilik", "temizlik", "yağmur", "rüzgar"], "dogru": 0, "ipucu": "Hava, su veya toprağın zarar görmesi."},
+      {"id": "u7-o74-s2", "soru": "What does 'drought' mean?", "secenekler": ["kuraklık", "sel", "fırtına", "deprem"], "dogru": 0, "ipucu": "Uzun süre yağmurun yağmaması."}
+    ]},
+    {"oda": 75, "tip": "kelime", "baslik": "Küresel problemler", "sorular": [
+      {"id": "u7-o75-s1", "soru": "What does 'climate change' mean?", "secenekler": ["iklim değişikliği", "hava tahmini", "mevsim", "gök gürültüsü"], "dogru": 0, "ipucu": "Dünya ikliminin uzun vadede değişmesi."},
+      {"id": "u7-o75-s2", "soru": "What does 'deforestation' mean?", "secenekler": ["ormansızlaşma", "ağaçlandırma", "geri dönüşüm", "kuraklık"], "dogru": 0, "ipucu": "Ormanların kesilerek yok edilmesi."}
+    ]},
+    {"oda": 76, "tip": "kelime", "baslik": "Koruma ve geri dönüşüm", "sorular": [
+      {"id": "u7-o76-s1", "soru": "What does 'reuse' mean?", "secenekler": ["yeniden kullanmak", "yakmak", "gömmek", "satmak"], "dogru": 0, "ipucu": "Bir şeyi atmak yerine tekrar kullanmak."},
+      {"id": "u7-o76-s2", "soru": "What does 'protect' mean?", "secenekler": ["korumak", "kirletmek", "kesmek", "taşımak"], "dogru": 0, "ipucu": "Zarar gelmesini önlemek."}
+    ]},
+    {"oda": 77, "tip": "test", "baslik": "Mini Test 13", "havuz": [73, 74, 75, 76], "soru_sayisi": 5},
+    {"oda": 78, "tip": "kalip", "baslik": "Relative clauses: who ve which", "sorular": [
+      {"id": "u7-o78-s1", "soru": "A vet is a person ___ treats animals.", "secenekler": ["who", "which", "where", "whose"], "dogru": 0, "ipucu": "İnsanlar için who kullanılır."},
+      {"id": "u7-o78-s2", "soru": "The river ___ flows through our city is polluted.", "secenekler": ["which", "who", "whom", "where"], "dogru": 0, "ipucu": "Nesneler ve yerler için which veya that."}
+    ]},
+    {"oda": 79, "tip": "kalip", "baslik": "Cause ve effect", "sorular": [
+      {"id": "u7-o79-s1", "soru": "Factories release smoke, ___ the air becomes dirty.", "secenekler": ["so", "but", "although", "unless"], "dogru": 0, "ipucu": "Sonuç bildiren so."},
+      {"id": "u7-o79-s2", "soru": "The river dried up ___ there was no rain for months.", "secenekler": ["because", "so", "but", "although"], "dogru": 0, "ipucu": "Neden bildiren because."}
+    ]},
+    {"oda": 80, "tip": "kalip", "baslik": "Sonuçlar", "sorular": [
+      {"id": "u7-o80-s1", "soru": "___ we cut down forests, animals lose their homes.", "secenekler": ["When", "Although", "But", "Yet"], "dogru": 0, "ipucu": "Bir durumun sonucunu anlatan When."},
+      {"id": "u7-o80-s2", "soru": "Trees are cut ___ people need wood for furniture.", "secenekler": ["because", "although", "but", "unless"], "dogru": 0, "ipucu": "Nedeni anlatan because."}
+    ]},
+    {"oda": 81, "tip": "siralama", "baslik": "Cümle kurma", "sorular": [
+      {"id": "u7-o81-s1", "soru": "Put the words in order.", "kelimeler": ["The", "man", "who", "lives", "next", "door", "recycles", "everything"], "cevap": "The man who lives next door recycles everything.", "ipucu": "Kişiyi anlatan who cümlesi, isimden hemen sonra gelir."},
+      {"id": "u7-o81-s2", "soru": "Put the words in order.", "kelimeler": ["Plastic", "bags", "which", "pollute", "the", "sea", "are", "harmful"], "cevap": "Plastic bags which pollute the sea are harmful.", "ipucu": "Nesneyi anlatan which cümlesi."}
+    ]},
+    {"oda": 82, "tip": "karisik", "baslik": "Karışık tekrar", "sorular": [
+      {"id": "u7-o82-s1", "soru": "Choose the correct relative pronoun: The people ___ live in the village grow their own food.", "secenekler": ["who", "which", "whose", "where"], "dogru": 0, "ipucu": "İnsanlar için who."},
+      {"id": "u7-o82-s2", "soru": "Which sentence is correct?", "secenekler": ["The city which I live is big.", "The city where I live is big.", "The city who I live is big.", "The city where I live it is big."], "dogru": 1, "ipucu": "Yer için where; gereksiz it kullanılmaz."}
+    ]},
+    {"oda": 83, "tip": "test", "baslik": "Mini Test 14", "havuz": [78, 79, 80, 81, 82], "soru_sayisi": 5},
+    {"oda": 84, "tip": "unite_testi", "baslik": "Ünite 7 Boss Testi", "havuz": [73, 74, 75, 76, 78, 79, 80, 81, 82], "soru_sayisi": 10}
+  ]
+}

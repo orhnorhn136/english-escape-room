@@ -1,0 +1,45 @@
+{
+  "unite": 8,
+  "baslik": "Life in the Universe and the Future",
+  "odalar": [
+    {"oda": 85, "tip": "kelime", "baslik": "Uzay", "sorular": [
+      {"id": "u8-o85-s1", "soru": "What does 'galaxy' mean?", "secenekler": ["galaksi", "yıldız", "gezegen", "uydu"], "dogru": 0, "ipucu": "Milyarlarca yıldızın bir araya geldiği yapı."},
+      {"id": "u8-o85-s2", "soru": "What does 'astronaut' mean?", "secenekler": ["astronot", "pilot", "doktor", "bilim insanı"], "dogru": 0, "ipucu": "Uzaya giden kişi."}
+    ]},
+    {"oda": 86, "tip": "kelime", "baslik": "Uzay araçları", "sorular": [
+      {"id": "u8-o86-s1", "soru": "What does 'spacecraft' mean?", "secenekler": ["uzay aracı", "uçak", "tren", "gemi"], "dogru": 0, "ipucu": "Uzaya gitmek için kullanılan araç."},
+      {"id": "u8-o86-s2", "soru": "What does 'planet' mean?", "secenekler": ["gezegen", "yıldız", "kuyruklu yıldız", "güneş"], "dogru": 0, "ipucu": "Bir yıldızın etrafında dönen büyük gök cismi."}
+    ]},
+    {"oda": 87, "tip": "kelime", "baslik": "Gök cisimleri", "sorular": [
+      {"id": "u8-o87-s1", "soru": "What does 'comet' mean?", "secenekler": ["kuyruklu yıldız", "uydu", "gezegen", "güneş"], "dogru": 0, "ipucu": "Güneşe yaklaşınca arkasında ışıklı bir kuyruk oluşturan gök cismi."},
+      {"id": "u8-o87-s2", "soru": "What does 'asteroid' mean?", "secenekler": ["asteroit", "galaksi", "gezegen", "güneş"], "dogru": 0, "ipucu": "Güneş etrafında dönen kayalık küçük gök cisimleri."}
+    ]},
+    {"oda": 88, "tip": "kelime", "baslik": "Gelecek", "sorular": [
+      {"id": "u8-o88-s1", "soru": "What does 'orbit' mean?", "secenekler": ["yörünge", "hatırlamak", "yaratmak", "başarmak"], "dogru": 0, "ipucu": "Bir gök cisminin başka bir cismin etrafındaki yolu."},
+      {"id": "u8-o88-s2", "soru": "What does 'artificial intelligence' mean?", "secenekler": ["yapay zeka", "doğal zeka", "sanal oyun", "uzay teknolojisi"], "dogru": 0, "ipucu": "AI olarak da bilinir."}
+    ]},
+    {"oda": 89, "tip": "test", "baslik": "Mini Test 15", "havuz": [85, 86, 87, 88], "soru_sayisi": 5},
+    {"oda": 90, "tip": "kalip", "baslik": "Zero conditional: genel doğrular", "sorular": [
+      {"id": "u8-o90-s1", "soru": "If you heat ice, it ___.", "secenekler": ["melts", "will melt", "melt", "melted"], "dogru": 0, "ipucu": "Genel bilimsel doğrularda if + present simple, present simple."},
+      {"id": "u8-o90-s2", "soru": "Plants ___ if they don't get water.", "secenekler": ["die", "will die", "died", "dying"], "dogru": 0, "ipucu": "Her zaman geçerli bir doğru: present simple."}
+    ]},
+    {"oda": 91, "tip": "kalip", "baslik": "First conditional: olası gelecek", "sorular": [
+      {"id": "u8-o91-s1", "soru": "If scientists ___ a new planet, they will send a spacecraft.", "secenekler": ["discover", "will discover", "discovered", "discovers"], "dogru": 0, "ipucu": "If yan cümlesinde present simple, ana cümlede will."},
+      {"id": "u8-o91-s2", "soru": "If you study hard, you ___ an astronaut one day.", "secenekler": ["will become", "become", "became", "becoming"], "dogru": 0, "ipucu": "Olası gelecek sonucu: will + yalın fiil."}
+    ]},
+    {"oda": 92, "tip": "kalip", "baslik": "First conditional: olumsuz ve olası", "sorular": [
+      {"id": "u8-o92-s1", "soru": "If we don't protect the planet, the future ___ dangerous.", "secenekler": ["will be", "is", "would be", "be"], "dogru": 0, "ipucu": "Ana cümlede will be."},
+      {"id": "u8-o92-s2", "soru": "If the spacecraft ___ on time, we will watch the landing.", "secenekler": ["lands", "will land", "landed", "land"], "dogru": 0, "ipucu": "If yan cümlesinde will kullanılmaz, present simple kullanılır."}
+    ]},
+    {"oda": 93, "tip": "siralama", "baslik": "Cümle kurma", "sorular": [
+      {"id": "u8-o93-s1", "soru": "Put the words in order.", "kelimeler": ["If", "you", "drop", "a", "stone", "it", "falls", "to", "the", "ground"], "cevap": "If you drop a stone, it falls to the ground.", "ipucu": "Genel doğru: if + present simple, present simple."},
+      {"id": "u8-o93-s2", "soru": "Put the words in order.", "kelimeler": ["If", "we", "save", "energy", "we", "will", "protect", "the", "planet"], "cevap": "If we save energy, we will protect the planet.", "ipucu": "Olası sonuç: if + present simple, will + yalın fiil."}
+    ]},
+    {"oda": 94, "tip": "karisik", "baslik": "Karışık tekrar", "sorular": [
+      {"id": "u8-o94-s1", "soru": "Choose: Water ___ at 100 degrees Celsius.", "secenekler": ["boils", "will boil", "boil", "boiled"], "dogru": 0, "ipucu": "Bilimsel genel doğru: present simple."},
+      {"id": "u8-o94-s2", "soru": "Which sentence is correct?", "secenekler": ["If it will rain, we stay home.", "If it rains, we will stay home.", "If it rains, we stays home.", "If it rains, we will to stay home."], "dogru": 1, "ipucu": "If yan cümlesinde will kullanılmaz."}
+    ]},
+    {"oda": 95, "tip": "test", "baslik": "Mini Test 16", "havuz": [90, 91, 92, 93, 94], "soru_sayisi": 5},
+    {"oda": 96, "tip": "unite_testi", "baslik": "Ünite 8 Boss Testi", "havuz": [85, 86, 87, 88, 90, 91, 92, 93, 94], "soru_sayisi": 10}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "unite": "final",
+  "baslik": "Final Escape",
+  "odalar": [
+    {"oda": 97, "tip": "test", "baslik": "Genel Tekrar 1 (Ünite 1-4)", "unite_havuz": [1, 2, 3, 4], "soru_sayisi": 10},
+    {"oda": 98, "tip": "test", "baslik": "Genel Tekrar 2 (Ünite 5-8)", "unite_havuz": [5, 6, 7, 8], "soru_sayisi": 10},
+    {"oda": 99, "tip": "test", "baslik": "Karışık Tekrar", "unite_havuz": [1, 2, 3, 4, 5, 6, 7, 8], "soru_sayisi": 15, "mod": "karisik"},
+    {"oda": 100, "tip": "final", "baslik": "Final Escape: Büyük Sınav", "unite_havuz": [1, 2, 3, 4, 5, 6, 7, 8], "soru_sayisi": 20}
+  ]
+}

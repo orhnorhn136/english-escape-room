@@ -1,0 +1,45 @@
+{
+  "unite": 2,
+  "baslik": "Classroom Life and Learning",
+  "odalar": [
+    {"oda": 13, "tip": "kelime", "baslik": "Sınıf eşyaları", "sorular": [
+      {"id": "u2-o13-s1", "soru": "What does 'file' mean?", "secenekler": ["bilgisayardaki belge", "fare", "klavye", "yazıcı"], "dogru": 0, "ipucu": "Bilgisayarda saklanan bilgi veya belge."},
+      {"id": "u2-o13-s2", "soru": "Which word means 'silmek'?", "secenekler": ["delete", "upload", "click", "define"], "dogru": 0, "ipucu": "Bilgisayardan bir bilgiyi kaldırmak."}
+    ]},
+    {"oda": 14, "tip": "kelime", "baslik": "Sınıf arkadaşları ve çalışma", "sorular": [
+      {"id": "u2-o14-s1", "soru": "What does 'analyse' mean?", "secenekler": ["analiz etmek", "özetlemek", "tartışmak", "çizmek"], "dogru": 0, "ipucu": "Bir şeyi dikkatle inceleyip daha iyi anlamak."},
+      {"id": "u2-o14-s2", "soru": "What does 'define' mean?", "secenekler": ["tanımlamak", "ezberlemek", "çizmek", "sormak"], "dogru": 0, "ipucu": "Bir kelimenin veya ifadenin anlamını açıklamak."}
+    ]},
+    {"oda": 15, "tip": "kelime", "baslik": "Sınıf etkinlikleri", "sorular": [
+      {"id": "u2-o15-s1", "soru": "What does 'brainstorming' mean?", "secenekler": ["beyin fırtınası", "ezber", "sınav", "özet çıkarma"], "dogru": 0, "ipucu": "Grupça hızlıca fikir üretmek."},
+      {"id": "u2-o15-s2", "soru": "What does 'summarise' mean?", "secenekler": ["özetlemek", "tartışmak", "çizmek", "çevirmek"], "dogru": 0, "ipucu": "Uzun bir metnin ana fikrini kısa anlatmak."}
+    ]},
+    {"oda": 16, "tip": "kelime", "baslik": "Teknoloji ve sınıf", "sorular": [
+      {"id": "u2-o16-s1", "soru": "What does 'keyboard' mean?", "secenekler": ["klavye", "fare", "ekran", "yazıcı"], "dogru": 0, "ipucu": "Bilgisayarda harf yazmak için kullanılan tuş takımı."},
+      {"id": "u2-o16-s2", "soru": "What does 'homepage' mean?", "secenekler": ["ana sayfa", "kapak", "dosya", "bağlantı"], "dogru": 0, "ipucu": "Bir web sitesini açtığında ilk gördüğün sayfa."}
+    ]},
+    {"oda": 17, "tip": "test", "baslik": "Mini Test 3", "havuz": [13, 14, 15, 16], "soru_sayisi": 5},
+    {"oda": 18, "tip": "kalip", "baslik": "Must, mustn't, have to", "sorular": [
+      {"id": "u2-o18-s1", "soru": "You ___ bring your books to class. It is a rule.", "secenekler": ["must", "mustn't", "can't", "should"], "dogru": 0, "ipucu": "Kural ve zorunluluk için must."},
+      {"id": "u2-o18-s2", "soru": "You ___ use your phone during the exam.", "secenekler": ["mustn't", "don't have", "must", "should"], "dogru": 0, "ipucu": "Yasak anlamında mustn't kullanılır."}
+    ]},
+    {"oda": 19, "tip": "kalip", "baslik": "Should ve can", "sorular": [
+      {"id": "u2-o19-s1", "soru": "You ___ study more for the test. It is good advice.", "secenekler": ["should", "must", "could", "might"], "dogru": 0, "ipucu": "Tavsiye için should kullanılır."},
+      {"id": "u2-o19-s2", "soru": "We ___ finish this work in ten minutes.", "secenekler": ["can", "must", "should", "had"], "dogru": 0, "ipucu": "Yetenek ve imkan için can kullanılır."}
+    ]},
+    {"oda": 20, "tip": "kalip", "baslik": "Will ve going to: tahmin ve plan", "sorular": [
+      {"id": "u2-o20-s1", "soru": "Look at those dark clouds! It ___ rain.", "secenekler": ["is going to", "goes", "is going", "rained"], "dogru": 0, "ipucu": "Görünen kanıta dayalı tahmin: going to."},
+      {"id": "u2-o20-s2", "soru": "Don't worry, I ___ help you with your homework.", "secenekler": ["will", "am going to", "going to", "was"], "dogru": 0, "ipucu": "Anlık karar ve teklif için will."}
+    ]},
+    {"oda": 21, "tip": "siralama", "baslik": "Cümle kurma", "sorular": [
+      {"id": "u2-o21-s1", "soru": "Put the words in order.", "kelimeler": ["must", "You", "finish", "your", "homework"], "cevap": "You must finish your homework.", "ipucu": "Özne + modal + fiil."},
+      {"id": "u2-o21-s2", "soru": "Put the words in order.", "kelimeler": ["should", "We", "practise", "every", "day"], "cevap": "We should practise every day.", "ipucu": "Özne + should + fiil + zaman."}
+    ]},
+    {"oda": 22, "tip": "karisik", "baslik": "Karışık tekrar", "sorular": [
+      {"id": "u2-o22-s1", "soru": "Ali ___ solve this problem. He is very clever.", "secenekler": ["can", "must", "mustn't", "shall"], "dogru": 0, "ipucu": "Yetenek anlatıyor."},
+      {"id": "u2-o22-s2", "soru": "Which sentence is correct?", "secenekler": ["You must to study.", "You must study.", "You musts study.", "You must studying."], "dogru": 1, "ipucu": "Modal fiilden sonra to kullanılmaz."}
+    ]},
+    {"oda": 23, "tip": "test", "baslik": "Mini Test 4", "havuz": [18, 19, 20, 21, 22], "soru_sayisi": 5},
+    {"oda": 24, "tip": "unite_testi", "baslik": "Ünite 2 Boss Testi", "havuz": [13, 14, 15, 16, 18, 19, 20, 21, 22], "soru_sayisi": 10}
+  ]
+}

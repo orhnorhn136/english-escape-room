@@ -1,0 +1,45 @@
+{
+  "unite": 3,
+  "baslik": "Personal Life and Well-being",
+  "odalar": [
+    {"oda": 25, "tip": "kelime", "baslik": "Sağlıklı yaşam", "sorular": [
+      {"id": "u3-o25-s1", "soru": "What does 'healthy' mean?", "secenekler": ["sağlıklı", "hasta", "yorgun", "mutlu"], "dogru": 0, "ipucu": "Vücut ve zihin açısından iyi durum."},
+      {"id": "u3-o25-s2", "soru": "Which word means 'egzersiz'?", "secenekler": ["exercise", "diet", "sleep", "habit"], "dogru": 0, "ipucu": "Vücudu çalıştıran fiziksel aktivite."}
+    ]},
+    {"oda": 26, "tip": "kelime", "baslik": "Alışkanlıklar ve beslenme", "sorular": [
+      {"id": "u3-o26-s1", "soru": "What does 'habit' mean?", "secenekler": ["alışkanlık", "hedef", "hayal", "ihtiyaç"], "dogru": 0, "ipucu": "Düzenli olarak yaptığımız davranış."},
+      {"id": "u3-o26-s2", "soru": "What does 'diet' mean?", "secenekler": ["beslenme düzeni", "uyku", "spor", "tatil"], "dogru": 0, "ipucu": "Günlük yenen ve içilen şeyler."}
+    ]},
+    {"oda": 27, "tip": "kelime", "baslik": "Vücut ve sağlık", "sorular": [
+      {"id": "u3-o27-s1", "soru": "What does 'chin' mean?", "secenekler": ["çene", "omuz", "dirsek", "boyun"], "dogru": 0, "ipucu": "Ağzın altındaki yüz bölümü."},
+      {"id": "u3-o27-s2", "soru": "What does 'headache' mean?", "secenekler": ["baş ağrısı", "karın ağrısı", "diş ağrısı", "sırt ağrısı"], "dogru": 0, "ipucu": "Kafanda hissettiğin ağrı."}
+    ]},
+    {"oda": 28, "tip": "kelime", "baslik": "Moda ve kumaş", "sorular": [
+      {"id": "u3-o28-s1", "soru": "What does 'stylish' mean?", "secenekler": ["şık", "kirli", "pahalı", "eski"], "dogru": 0, "ipucu": "Modaya uygun ve güzel görünen."},
+      {"id": "u3-o28-s2", "soru": "What does 'cotton' mean?", "secenekler": ["pamuk", "deri", "yün", "ipek"], "dogru": 0, "ipucu": "Tişörtler genelde bu kumaştan yapılır."}
+    ]},
+    {"oda": 29, "tip": "test", "baslik": "Mini Test 5", "havuz": [25, 26, 27, 28], "soru_sayisi": 5},
+    {"oda": 30, "tip": "kalip", "baslik": "Past simple", "sorular": [
+      {"id": "u3-o30-s1", "soru": "Last year, I ___ to a new school.", "secenekler": ["moved", "move", "moving", "have moved"], "dogru": 0, "ipucu": "Last year geçmiş zaman gösterir: düzenli fiil -ed."},
+      {"id": "u3-o30-s2", "soru": "We ___ to the park last Sunday.", "secenekler": ["went", "go", "goes", "gone"], "dogru": 0, "ipucu": "Go fiilinin düzensiz geçmiş zamanı went."}
+    ]},
+    {"oda": 31, "tip": "kalip", "baslik": "Past ability: could", "sorular": [
+      {"id": "u3-o31-s1", "soru": "When I was five, I ___ swim very well.", "secenekler": ["could", "can", "must", "should"], "dogru": 0, "ipucu": "Geçmişteki yetenek için could kullanılır."},
+      {"id": "u3-o31-s2", "soru": "I ___ ride a bike last year, so I took lessons.", "secenekler": ["couldn't", "can't", "mustn't", "didn't have"], "dogru": 0, "ipucu": "Geçmişte yapamadığın şey için couldn't."}
+    ]},
+    {"oda": 32, "tip": "kalip", "baslik": "Used to", "sorular": [
+      {"id": "u3-o32-s1", "soru": "When I was young, I ___ afraid of the dark.", "secenekler": ["used to be", "use to be", "used to being", "am used to be"], "dogru": 0, "ipucu": "Used to + yalın fiil: eski bir durumu anlatır."},
+      {"id": "u3-o32-s2", "soru": "She ___ eat meat when she was a child.", "secenekler": ["didn't use to", "doesn't use to", "didn't used to", "not use to"], "dogru": 0, "ipucu": "Olumsuzda didn't use to kullanılır."}
+    ]},
+    {"oda": 33, "tip": "siralama", "baslik": "Cümle kurma", "sorular": [
+      {"id": "u3-o33-s1", "soru": "Put the words in order.", "kelimeler": ["We", "went", "to", "the", "zoo", "yesterday"], "cevap": "We went to the zoo yesterday.", "ipucu": "Geçmiş zaman: özne + V2 + yer + zaman."},
+      {"id": "u3-o33-s2", "soru": "Put the words in order.", "kelimeler": ["I", "didn't", "sleep", "well", "last", "night"], "cevap": "I didn't sleep well last night.", "ipucu": "Olumsuz geçmiş: didn't + yalın fiil."}
+    ]},
+    {"oda": 34, "tip": "karisik", "baslik": "Karışık tekrar", "sorular": [
+      {"id": "u3-o34-s1", "soru": "Which is the past form of 'buy'?", "secenekler": ["bought", "buyed", "buy", "buying"], "dogru": 0, "ipucu": "Buy düzensiz bir fiildir."},
+      {"id": "u3-o34-s2", "soru": "Which sentence is correct?", "secenekler": ["She didn't went to school.", "She didn't go to school.", "She not went to school.", "She didn't goes to school."], "dogru": 1, "ipucu": "Didn't'ten sonra V1 kullanılır."}
+    ]},
+    {"oda": 35, "tip": "test", "baslik": "Mini Test 6", "havuz": [30, 31, 32, 33, 34], "soru_sayisi": 5},
+    {"oda": 36, "tip": "unite_testi", "baslik": "Ünite 3 Boss Testi", "havuz": [25, 26, 27, 28, 30, 31, 32, 33, 34], "soru_sayisi": 10}
+  ]
+}

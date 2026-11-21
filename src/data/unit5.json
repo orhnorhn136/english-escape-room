@@ -1,0 +1,45 @@
+{
+  "unite": 5,
+  "baslik": "Life in the Neighbourhood, City and Social Life",
+  "odalar": [
+    {"oda": 49, "tip": "kelime", "baslik": "Mahalle ve şehir", "sorular": [
+      {"id": "u5-o49-s1", "soru": "What does 'neighbourhood' mean?", "secenekler": ["mahalle", "şehir", "köy", "ülke"], "dogru": 0, "ipucu": "Evinin etrafındaki yerleşim bölgesi."},
+      {"id": "u5-o49-s2", "soru": "What does 'crowded' mean?", "secenekler": ["kalabalık", "sessiz", "temiz", "pahalı"], "dogru": 0, "ipucu": "Çok fazla insanın olduğu yer."}
+    ]},
+    {"oda": 50, "tip": "kelime", "baslik": "Ulaşım", "sorular": [
+      {"id": "u5-o50-s1", "soru": "What does 'traffic' mean?", "secenekler": ["trafik", "yol", "otobüs durağı", "köprü"], "dogru": 0, "ipucu": "Yollardaki araç yoğunluğu."},
+      {"id": "u5-o50-s2", "soru": "What does 'public transport' mean?", "secenekler": ["toplu taşıma", "özel araç", "bisiklet yolu", "yaya kaldırımı"], "dogru": 0, "ipucu": "Otobüs, metro gibi herkesin kullandığı araçlar."}
+    ]},
+    {"oda": 51, "tip": "kelime", "baslik": "Toplum ve gönüllülük", "sorular": [
+      {"id": "u5-o51-s1", "soru": "What does 'volunteer' mean?", "secenekler": ["gönüllü", "asker", "işçi", "memur"], "dogru": 0, "ipucu": "Ücret almadan yardım eden kişi."},
+      {"id": "u5-o51-s2", "soru": "What does 'community' mean?", "secenekler": ["topluluk", "aile", "sınıf", "ülke"], "dogru": 0, "ipucu": "Aynı yerde yaşayan insanlar grubu."}
+    ]},
+    {"oda": 52, "tip": "kelime", "baslik": "Hizmetler ve turistik yerler", "sorular": [
+      {"id": "u5-o52-s1", "soru": "What does 'pharmacy' mean?", "secenekler": ["eczane", "market", "kafe", "postane"], "dogru": 0, "ipucu": "İlaç alınan yer."},
+      {"id": "u5-o52-s2", "soru": "What does 'gym' mean?", "secenekler": ["spor salonu", "park", "kütüphane", "sinema"], "dogru": 0, "ipucu": "Egzersiz yapmak için ekipmanı olan kapalı alan."}
+    ]},
+    {"oda": 53, "tip": "test", "baslik": "Mini Test 9", "havuz": [49, 50, 51, 52], "soru_sayisi": 5},
+    {"oda": 54, "tip": "kalip", "baslik": "Past continuous", "sorular": [
+      {"id": "u5-o54-s1", "soru": "At 8 o'clock last night, I ___ my homework.", "secenekler": ["was doing", "did", "do", "am doing"], "dogru": 0, "ipucu": "Geçmişte belirli bir anda süren eylem: was/were + -ing."},
+      {"id": "u5-o54-s2", "soru": "They ___ in the park when it started to rain.", "secenekler": ["were walking", "walked", "walk", "are walking"], "dogru": 0, "ipucu": "They ile were + -ing."}
+    ]},
+    {"oda": 55, "tip": "kalip", "baslik": "Past continuous ve past simple", "sorular": [
+      {"id": "u5-o55-s1", "soru": "While I ___ dinner, the phone rang.", "secenekler": ["was cooking", "cooked", "cook", "am cooking"], "dogru": 0, "ipucu": "Uzun süren eylem past continuous, araya giren kısa eylem past simple."},
+      {"id": "u5-o55-s2", "soru": "We ___ to the cinema when we saw our friends.", "secenekler": ["were going", "went", "go", "are going"], "dogru": 0, "ipucu": "When ile devam eden eylem: past continuous."}
+    ]},
+    {"oda": 56, "tip": "kalip", "baslik": "Past continuous: soru ve olumsuz", "sorular": [
+      {"id": "u5-o56-s1", "soru": "What ___ you ___ at 9 pm yesterday?", "secenekler": ["were / doing", "did / do", "were / do", "are / doing"], "dogru": 0, "ipucu": "Soru: Were + özne + -ing."},
+      {"id": "u5-o56-s2", "soru": "She ___ not ___ when the bus arrived.", "secenekler": ["was / waiting", "did / wait", "was / wait", "is / waiting"], "dogru": 0, "ipucu": "Olumsuz: was not + -ing."}
+    ]},
+    {"oda": 57, "tip": "siralama", "baslik": "Cümle kurma", "sorular": [
+      {"id": "u5-o57-s1", "soru": "Put the words in order.", "kelimeler": ["I", "was", "reading", "a", "book", "when", "the", "lights", "went", "out"], "cevap": "I was reading a book when the lights went out.", "ipucu": "Was + -ing ... when + past simple."},
+      {"id": "u5-o57-s2", "soru": "Put the words in order.", "kelimeler": ["The", "children", "were", "playing", "in", "the", "park", "at", "noon"], "cevap": "The children were playing in the park at noon.", "ipucu": "Were + -ing ile geçmişte süren eylem."}
+    ]},
+    {"oda": 58, "tip": "karisik", "baslik": "Karışık tekrar", "sorular": [
+      {"id": "u5-o58-s1", "soru": "Choose the correct option: The bus ___ when we arrived.", "secenekler": ["was leaving", "left", "leave", "is leaving"], "dogru": 0, "ipucu": "Otobüs biz gelirken hareket etmekteydi: past continuous."},
+      {"id": "u5-o58-s2", "soru": "Which sentence is correct?", "secenekler": ["He was go to school.", "He was going to school.", "He were going to school.", "He is going to school yesterday."], "dogru": 1, "ipucu": "He ile was + -ing."}
+    ]},
+    {"oda": 59, "tip": "test", "baslik": "Mini Test 10", "havuz": [54, 55, 56, 57, 58], "soru_sayisi": 5},
+    {"oda": 60, "tip": "unite_testi", "baslik": "Ünite 5 Boss Testi", "havuz": [49, 50, 51, 52, 54, 55, 56, 57, 58], "soru_sayisi": 10}
+  ]
+}

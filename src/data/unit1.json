@@ -1,0 +1,45 @@
+{
+  "unite": 1,
+  "baslik": "School Life and Education",
+  "odalar": [
+    {"oda": 1, "tip": "kelime", "baslik": "Okul ve dersler", "sorular": [
+      {"id": "u1-o1-s1", "soru": "What does 'quiz' mean?", "secenekler": ["kısa sınav", "ders programı", "ödev", "kantin"], "dogru": 0, "ipucu": "Derste yapılan kısa bir sınav."},
+      {"id": "u1-o1-s2", "soru": "Which word means 'sınav'?", "secenekler": ["homework", "exam", "canteen", "subject"], "dogru": 1, "ipucu": "Öğrencinin bilgisini ölçmek için yapılır."}
+    ]},
+    {"oda": 2, "tip": "kelime", "baslik": "Okul hayatı", "sorular": [
+      {"id": "u1-o2-s1", "soru": "What does 'canteen' mean?", "secenekler": ["kantin", "kütüphane", "laboratuvar", "bahçe"], "dogru": 0, "ipucu": "Okulda yemek yenen yer."},
+      {"id": "u1-o2-s2", "soru": "Which word means 'mezun olmak'?", "secenekler": ["graduate", "attend", "repeat", "enrol"], "dogru": 0, "ipucu": "Okulu bitirip diploma almak."}
+    ]},
+    {"oda": 3, "tip": "kelime", "baslik": "Okul türleri", "sorular": [
+      {"id": "u1-o3-s1", "soru": "What does 'nursery' mean?", "secenekler": ["anaokulu", "ilkokul", "üniversite", "kütüphane"], "dogru": 0, "ipucu": "En küçük çocukların gittiği okul."},
+      {"id": "u1-o3-s2", "soru": "What does 'secondary school' mean?", "secenekler": ["ortaokul", "üniversite", "anaokulu", "kreş"], "dogru": 0, "ipucu": "İlkokuldan sonra gidilen okul."}
+    ]},
+    {"oda": 4, "tip": "kelime", "baslik": "Ders dışı etkinlikler", "sorular": [
+      {"id": "u1-o4-s1", "soru": "What does 'extracurricular' mean?", "secenekler": ["ders dışı etkinlik", "sınav", "ödev", "tatil"], "dogru": 0, "ipucu": "Okul dersleri dışında yapılan kulüp ve spor gibi etkinlikler."},
+      {"id": "u1-o4-s2", "soru": "What does 'competition' mean?", "secenekler": ["yarışma", "kurs", "sunum", "ders"], "dogru": 0, "ipucu": "Kazanmak için birlikte yarışılan etkinlik."}
+    ]},
+    {"oda": 5, "tip": "test", "baslik": "Mini Test 1", "havuz": [1, 2, 3, 4], "soru_sayisi": 5},
+    {"oda": 6, "tip": "kalip", "baslik": "Present simple ve present continuous", "sorular": [
+      {"id": "u1-o6-s1", "soru": "Look! The students ___ to the library now.", "secenekler": ["go", "are going", "went", "goes"], "dogru": 1, "ipucu": "'Look!' ve 'now' şu an olanı gösterir: present continuous."},
+      {"id": "u1-o6-s2", "soru": "My sister usually ___ the bus to school.", "secenekler": ["takes", "is taking", "taken", "take"], "dogru": 0, "ipucu": "'Usually' alışkanlık anlatır: present simple, sister için -s."}
+    ]},
+    {"oda": 7, "tip": "kalip", "baslik": "Present simple soruları", "sorular": [
+      {"id": "u1-o7-s1", "soru": "___ you ___ English every day?", "secenekler": ["Do / study", "Are / studying", "Does / study", "Is / studying"], "dogru": 0, "ipucu": "You ile soru yapısında do kullanılır."},
+      {"id": "u1-o7-s2", "soru": "What time ___ the school ___?", "secenekler": ["does / start", "do / start", "is / starts", "are / starting"], "dogru": 0, "ipucu": "School tekil olduğu için does + yalın fiil."}
+    ]},
+    {"oda": 8, "tip": "kalip", "baslik": "Sıklık zarfları", "sorular": [
+      {"id": "u1-o8-s1", "soru": "I ___ do my homework in the evening.", "secenekler": ["usually", "yet", "since", "ever"], "dogru": 0, "ipucu": "Genellikle anlamına gelir ve present simple ile kullanılır."},
+      {"id": "u1-o8-s2", "soru": "We ___ go to the cinema. We hate it.", "secenekler": ["never", "often", "always", "sometimes"], "dogru": 0, "ipucu": "'Hiç' anlamı: we never go = hiç gitmeyiz."}
+    ]},
+    {"oda": 9, "tip": "siralama", "baslik": "Cümle kurma", "sorular": [
+      {"id": "u1-o9-s1", "soru": "Put the words in order.", "kelimeler": ["do", "you", "every", "study", "day", "English"], "cevap": "Do you study English every day?", "ipucu": "Soru yapısı: Do + özne + fiil."},
+      {"id": "u1-o9-s2", "soru": "Put the words in order.", "kelimeler": ["She", "walks", "to", "school", "every", "morning"], "cevap": "She walks to school every morning.", "ipucu": "Özne + fiil (-s) + yer + zaman."}
+    ]},
+    {"oda": 10, "tip": "karisik", "baslik": "Karışık tekrar", "sorular": [
+      {"id": "u1-o10-s1", "soru": "The exam ___ next Friday.", "secenekler": ["is", "are", "be", "being"], "dogru": 0, "ipucu": "Exam tekil bir isimdir."},
+      {"id": "u1-o10-s2", "soru": "Which sentence is correct?", "secenekler": ["He don't like math.", "He doesn't likes math.", "He doesn't like math.", "He not like math."], "dogru": 2, "ipucu": "He ile doesn't + yalın fiil kullanılır."}
+    ]},
+    {"oda": 11, "tip": "test", "baslik": "Mini Test 2", "havuz": [6, 7, 8, 9, 10], "soru_sayisi": 5},
+    {"oda": 12, "tip": "unite_testi", "baslik": "Ünite 1 Boss Testi", "havuz": [1, 2, 3, 4, 6, 7, 8, 9, 10], "soru_sayisi": 10}
+  ]
+}
